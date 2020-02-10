@@ -1,0 +1,33 @@
+第一次使用GitHub真的对不懂英文的我来说简直是一次挑战（还不会使用Git）
+
+首先注册GitHub账号
+
+然后我们还需要下载一个叫Git的东西。
+
+首先我们要做的是在GitHub建立一个仓库
+
+创建完成过后我们要做的是复制连接仓库的连接
+
+然后我们鼠标右击文件夹点击Git Bush Here来到git命令窗口执行
+
+git clone To https://github.com/Stylle/Text.git  //这里的连接填写的是刚刚复制的连接
+
+然后然后我们的文件夹里面就会多出一个我们仓库名字的文件夹最后把我们要上传的代码放到那个文件夹里面然后cd到我们的仓库目录
+
+然后配置我们的邮箱和GitHub的名字让Git认识我们
+
+  git config --global user.email "you@example.com"
+  
+  git config --global user.name "Your Name"
+
+然后我们依次执行以下命令
+
+git add . //这是吧文件下下面的文件都上传
+
+git commit -m "First Commit"  //"then"这里的东西随意填写
+
+git push -u origin master //把本地仓库push到github上面，此步骤需要你输入帐号和密码
+
+然后稍等一两分钟刷新仓库目录即可看到我们的文件已经上传上来了。
+
+Ps:命令行复制粘贴命令分别是Ctrl + Insert  和 Shift + Insert.
