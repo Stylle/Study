@@ -1,5 +1,11 @@
 使用
 
+在vscode的设置中搜索git.path,点击在json中编辑，添加
+
+路径是安装目录bin下面的git.exe
+
+"git.path":"E:/git/Git/bin/git.exe"
+
 第一次使用GitHub真的对不懂英文的我来说简直是一次挑战（还不会使用Git）
 
 首先注册GitHub账号
@@ -116,3 +122,4 @@ git reset --hard HEAD //撤销本地修改
 echo $HOME //查看git config的HOME路径
 
 export $HOME=/c/gitconfig //配置git config的HOME路径
+
