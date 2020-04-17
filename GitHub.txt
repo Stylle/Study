@@ -3,7 +3,7 @@
 第一次使用GitHub真的对不懂英文的我来说简直是一次挑战（还不会使用Git）
 
 首先注册GitHub账号
-
+   
 然后我们还需要下载一个叫Git的东西。
 
 首先我们要做的是在GitHub建立一个仓库
@@ -12,7 +12,7 @@
 
 然后我们鼠标右击文件夹点击Git Bush Here来到git命令窗口执行
 
-git clone To https://github.com/Stylle/Text.git  //这里的连接填写的是刚刚复制的连接
+git clone https://github.com/Stylle/Text.git  //这里的连接填写的是刚刚复制的连接
 
 然后然后我们的文件夹里面就会多出一个我们仓库名字的文件夹最后把我们要上传的代码放到那个文件夹里面然后cd到我们的仓库目录
 
